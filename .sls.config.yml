@@ -1,0 +1,10 @@
+default_env: dev
+environment:
+  dev:
+    account_id: [YOUR_AWS_ACCOUNT_ID]
+    profile: [YOUR_PROFILE_ID_IN_AWS_CREDENTALS_FILE]
+    api_key: some-api-key-used-in-development
+  prod:
+    account_id: [YOUR_AWS_ACCOUNT_ID]
+    profile: [YOUR_PROFILE_ID_IN_AWS_CREDENTALS_FILE]
+    api_key: some-api-key-used-in-production
